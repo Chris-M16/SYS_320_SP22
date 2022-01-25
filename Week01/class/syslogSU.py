@@ -17,7 +17,7 @@ def su_open(filename, searchTerms):
         # Split the results
         sp_results = eachFound.split(" ")
 
-        # Append the sokut value to the found list
+        # Append the split value to the found list
         found.append(sp_results[5])
 
     # Remove duplicates by using set

@@ -1,14 +1,14 @@
-import syslogCheck
+import LinuxLogCheck
 import importlib
-importlib.reload(syslogCheck)
+importlib.reload(LinuxLogCheck)
 
 # SSH authentication failures
-def ftp_connection(filename, searchTerms):
+def klogind_fail(filename, searchTerms):
 
-    # Call syslogCheck and return the results
-    is_found = syslogCheck._syslog(filename,searchTerms)
+    # Call LinuxLogCheck and return the results
+    is_found = LinuxLogCheck._LinuxLog(filename,searchTerms)
 
-    #  found list
+    # found list
     found = []
 
     # Loop through the results
@@ -18,10 +18,9 @@ def ftp_connection(filename, searchTerms):
         sp_results = eachFound.split(" ")
 
         # Append the split value to the found list
-        found.append(sp_results[3])
+        found.append(sp_results[4])
 
     # Remove duplicates by using set
-    # and convert the list to a dictionary
     hosts = set(found)
 
     # Print results
