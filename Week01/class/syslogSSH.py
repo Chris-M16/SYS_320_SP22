@@ -28,3 +28,4 @@ def ssh_fail(filename, searchTerms):
     for eachHost in hosts:
         
         print(eachHost)
+        

@@ -28,3 +28,4 @@ def ftp_connection(filename, searchTerms):
     for eachHost in hosts:
         
         print(eachHost)
+        

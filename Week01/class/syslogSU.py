@@ -28,3 +28,4 @@ def su_open(filename, searchTerms):
     for eachValue in returnedValues:
         
         print(eachValue)
+        
