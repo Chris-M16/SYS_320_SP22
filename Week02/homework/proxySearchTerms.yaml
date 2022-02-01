@@ -1,0 +1,4 @@
+---
+proxy:
+  QQopen: QQ.* - .* open through proxy.*,QQ.* - .* open through proxy.*
+  QQinfo: QQ.exe.* close.*,QQExternal.exe.* close.*,QQProtectUpd.exe.* close.*
