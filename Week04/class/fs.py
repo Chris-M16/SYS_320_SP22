@@ -1,21 +1,35 @@
 # File to traverse a given directory and it's subdirs and retrieve all the files
+import os, argparse
 
-from distutils import filelist
-import os, sys
+# parser
+parser = argparse.ArgumentParser(
 
+    description="Traverses a directory and builds a forensic body file",
+    epilog="developed by Chris McHugh 20220210"
+
+)
+
+# Add argument to pass to the fs.py program
+parser.add_argument("-d", "--directory", required="True", help="Directory that you want to traverse.")
+
+# Parse the arguments
+args = parser.parse_args()
+
+rootdir = args.directory
 
 # Get information from the commandline
 #print(sys.argv)
 
 # Directory to traverse
-rootdir = sys.argv[1]
+#rootdir = sys.argv[1]
 
 #print(rootdir)
+
 # In our story, we wil traverse a directory
 
 # Check, if the argument is a directory
 if not os.path.isdir(rootdir):
-    print("Invalid Directory => {}").format(rootdir)
+    print("Invalid Directory => {}".format(rootdir))
     exit()
 
 # List to save files
@@ -42,7 +56,7 @@ def statFile(toStat):
     mode = i[0]
 
     # inode
-    inode=i[1]
+    inode = i[1]
 
     # uid
     uid = i[4]
@@ -60,7 +74,7 @@ def statFile(toStat):
     mtime = i[8]
 
     # ctime => windows is the birth of the file, when it was created
-    # unis it is when attributes of the file changes.
+    # unix it is when attributes of the file changes.
     ctime = i[9]
     crtime = i[9]
 
