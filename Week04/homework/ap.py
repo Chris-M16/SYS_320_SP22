@@ -1,4 +1,4 @@
-# File to traverse a given directory and it's subdirs and retrieve all the files
+# File to traverse a given directory and retrieve all the files
 from msilib.schema import Directory
 import os, argparse, importlib
 import Check
@@ -19,18 +19,9 @@ parser.add_argument("-s", "--service", required="True", help="Service you want t
 # Parse the arguments
 args = parser.parse_args()
 
+# Name the args
 rootdir = args.directory
 service = args.service
-
-# Get information from the commandline
-#print(sys.argv)
-
-# Directory to traverse
-#rootdir = sys.argv[1]
-
-#print(rootdir)
-
-# In our story, we wil traverse a directory
 
 # Check, if the argument is a directory
 if not os.path.isdir(rootdir):
@@ -50,21 +41,32 @@ for root, subfolders, filenames in os.walk(rootdir):
         #print(fileList)
         fList.append(fileList)
 
+# Loop through every file in fList
 for file in fList:
+    
+    # Calls Check and returns the results
     is_found = Check.attackLogs(file, service)
 
+    # Creates a blank list
     found = []
+
+    # This below if statement is used to display files with no detected attacks
     if len(is_found) == 0:
         print("No Attacks Detected")
     else:
+        # Loop through the results
         for eachFound in is_found:
+
+            # Splits the results to help with formatting
             sp_results = eachFound.split(" ")
 
+            # Appends the split values together in desired formatting to the found list
             found.append("Status Code: " + sp_results[8] + "  Bytes: " + sp_results[9] + "  Path:" + sp_results[6] + " ")
 
+        # Removes duplicates by using set and converts the list back to a dictionary
         getValues = set(found)
 
-        
+        # Prints all of the results
         for eachValue in getValues:
             print(eachValue)
         
