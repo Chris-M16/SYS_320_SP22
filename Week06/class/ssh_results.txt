@@ -1,0 +1,555 @@
+### BEGIN ps -ef ###
+
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 Feb21 ?        00:00:12 /sbin/init maybe-ubiquity
+root           2       0  0 Feb21 ?        00:00:00 [kthreadd]
+root           3       2  0 Feb21 ?        00:00:00 [rcu_gp]
+root           4       2  0 Feb21 ?        00:00:00 [rcu_par_gp]
+root           6       2  0 Feb21 ?        00:00:00 [kworker/0:0H]
+root           8       2  0 Feb21 ?        00:00:00 [mm_percpu_wq]
+root           9       2  0 Feb21 ?        00:00:02 [ksoftirqd/0]
+root          10       2  0 Feb21 ?        00:00:42 [rcu_sched]
+root          11       2  0 Feb21 ?        00:00:01 [migration/0]
+root          12       2  0 Feb21 ?        00:00:00 [idle_inject/0]
+root          14       2  0 Feb21 ?        00:00:00 [cpuhp/0]
+root          15       2  0 Feb21 ?        00:00:00 [kdevtmpfs]
+root          16       2  0 Feb21 ?        00:00:00 [netns]
+root          17       2  0 Feb21 ?        00:00:00 [rcu_tasks_kthre]
+root          18       2  0 Feb21 ?        00:00:00 [kauditd]
+root          19       2  0 Feb21 ?        00:00:00 [khungtaskd]
+root          20       2  0 Feb21 ?        00:00:00 [oom_reaper]
+root          21       2  0 Feb21 ?        00:00:00 [writeback]
+root          22       2  0 Feb21 ?        00:00:00 [kcompactd0]
+root          23       2  0 Feb21 ?        00:00:00 [ksmd]
+root          24       2  0 Feb21 ?        00:00:00 [khugepaged]
+root          70       2  0 Feb21 ?        00:00:00 [kintegrityd]
+root          71       2  0 Feb21 ?        00:00:00 [kblockd]
+root          72       2  0 Feb21 ?        00:00:00 [blkcg_punt_bio]
+root          73       2  0 Feb21 ?        00:00:00 [tpm_dev_wq]
+root          74       2  0 Feb21 ?        00:00:00 [ata_sff]
+root          75       2  0 Feb21 ?        00:00:00 [md]
+root          76       2  0 Feb21 ?        00:00:00 [edac-poller]
+root          77       2  0 Feb21 ?        00:00:00 [devfreq_wq]
+root          78       2  0 Feb21 ?        00:00:00 [watchdogd]
+root          81       2  0 Feb21 ?        00:00:00 [kswapd0]
+root          82       2  0 Feb21 ?        00:00:00 [ecryptfs-kthrea]
+root          84       2  0 Feb21 ?        00:00:00 [kthrotld]
+root          85       2  0 Feb21 ?        00:00:00 [irq/24-pciehp]
+root          86       2  0 Feb21 ?        00:00:00 [irq/25-pciehp]
+root          87       2  0 Feb21 ?        00:00:00 [irq/26-pciehp]
+root          88       2  0 Feb21 ?        00:00:00 [irq/27-pciehp]
+root          89       2  0 Feb21 ?        00:00:00 [irq/28-pciehp]
+root          90       2  0 Feb21 ?        00:00:00 [irq/29-pciehp]
+root          91       2  0 Feb21 ?        00:00:00 [irq/30-pciehp]
+root          92       2  0 Feb21 ?        00:00:00 [irq/31-pciehp]
+root          93       2  0 Feb21 ?        00:00:00 [irq/32-pciehp]
+root          94       2  0 Feb21 ?        00:00:00 [irq/33-pciehp]
+root          95       2  0 Feb21 ?        00:00:00 [irq/34-pciehp]
+root          96       2  0 Feb21 ?        00:00:00 [irq/35-pciehp]
+root          97       2  0 Feb21 ?        00:00:00 [irq/36-pciehp]
+root          98       2  0 Feb21 ?        00:00:00 [irq/37-pciehp]
+root          99       2  0 Feb21 ?        00:00:00 [irq/38-pciehp]
+root         100       2  0 Feb21 ?        00:00:00 [irq/39-pciehp]
+root         101       2  0 Feb21 ?        00:00:00 [irq/40-pciehp]
+root         102       2  0 Feb21 ?        00:00:00 [irq/41-pciehp]
+root         103       2  0 Feb21 ?        00:00:00 [irq/42-pciehp]
+root         104       2  0 Feb21 ?        00:00:00 [irq/43-pciehp]
+root         105       2  0 Feb21 ?        00:00:00 [irq/44-pciehp]
+root         106       2  0 Feb21 ?        00:00:00 [irq/45-pciehp]
+root         107       2  0 Feb21 ?        00:00:00 [irq/46-pciehp]
+root         108       2  0 Feb21 ?        00:00:00 [irq/47-pciehp]
+root         109       2  0 Feb21 ?        00:00:00 [irq/48-pciehp]
+root         110       2  0 Feb21 ?        00:00:00 [irq/49-pciehp]
+root         111       2  0 Feb21 ?        00:00:00 [irq/50-pciehp]
+root         112       2  0 Feb21 ?        00:00:00 [irq/51-pciehp]
+root         113       2  0 Feb21 ?        00:00:00 [irq/52-pciehp]
+root         114       2  0 Feb21 ?        00:00:00 [irq/53-pciehp]
+root         115       2  0 Feb21 ?        00:00:00 [irq/54-pciehp]
+root         116       2  0 Feb21 ?        00:00:00 [irq/55-pciehp]
+root         117       2  0 Feb21 ?        00:00:00 [acpi_thermal_pm]
+root         118       2  0 Feb21 ?        00:00:00 [scsi_eh_0]
+root         119       2  0 Feb21 ?        00:00:00 [scsi_tmf_0]
+root         120       2  0 Feb21 ?        00:00:00 [scsi_eh_1]
+root         121       2  0 Feb21 ?        00:00:00 [scsi_tmf_1]
+root         123       2  0 Feb21 ?        00:00:00 [vfio-irqfd-clea]
+root         124       2  0 Feb21 ?        00:00:00 [ipv6_addrconf]
+root         134       2  0 Feb21 ?        00:00:00 [kstrp]
+root         137       2  0 Feb21 ?        00:00:00 [kworker/u3:0]
+root         150       2  0 Feb21 ?        00:00:00 [charger_manager]
+root         184       2  0 Feb21 ?        00:00:00 [mpt_poll_0]
+root         185       2  0 Feb21 ?        00:00:00 [scsi_eh_2]
+root         186       2  0 Feb21 ?        00:00:00 [mpt/0]
+root         187       2  0 Feb21 ?        00:00:00 [scsi_tmf_2]
+root         188       2  0 Feb21 ?        00:00:00 [cryptd]
+root         189       2  0 Feb21 ?        00:00:00 [scsi_eh_3]
+root         190       2  0 Feb21 ?        00:00:00 [scsi_tmf_3]
+root         191       2  0 Feb21 ?        00:00:00 [scsi_eh_4]
+root         195       2  0 Feb21 ?        00:00:00 [scsi_tmf_4]
+root         196       2  0 Feb21 ?        00:00:00 [scsi_eh_5]
+root         199       2  0 Feb21 ?        00:00:00 [scsi_tmf_5]
+root         201       2  0 Feb21 ?        00:00:00 [scsi_eh_6]
+root         203       2  0 Feb21 ?        00:00:00 [scsi_tmf_6]
+root         206       2  0 Feb21 ?        00:00:00 [scsi_eh_7]
+root         208       2  0 Feb21 ?        00:00:00 [scsi_tmf_7]
+root         209       2  0 Feb21 ?        00:00:00 [scsi_eh_8]
+root         212       2  0 Feb21 ?        00:00:00 [scsi_tmf_8]
+root         214       2  0 Feb21 ?        00:00:00 [scsi_eh_9]
+root         216       2  0 Feb21 ?        00:00:00 [scsi_tmf_9]
+root         219       2  0 Feb21 ?        00:00:00 [scsi_eh_10]
+root         221       2  0 Feb21 ?        00:00:00 [scsi_tmf_10]
+root         223       2  0 Feb21 ?        00:00:00 [scsi_eh_11]
+root         227       2  0 Feb21 ?        00:00:00 [scsi_tmf_11]
+root         229       2  0 Feb21 ?        00:00:00 [scsi_eh_12]
+root         231       2  0 Feb21 ?        00:00:00 [scsi_tmf_12]
+root         233       2  0 Feb21 ?        00:00:00 [scsi_eh_13]
+root         235       2  0 Feb21 ?        00:00:00 [scsi_tmf_13]
+root         237       2  0 Feb21 ?        00:00:00 [scsi_eh_14]
+root         240       2  0 Feb21 ?        00:00:00 [scsi_tmf_14]
+root         241       2  0 Feb21 ?        00:00:00 [scsi_eh_15]
+root         243       2  0 Feb21 ?        00:00:00 [scsi_tmf_15]
+root         245       2  0 Feb21 ?        00:00:00 [scsi_eh_16]
+root         246       2  0 Feb21 ?        00:00:00 [scsi_tmf_16]
+root         248       2  0 Feb21 ?        00:00:00 [scsi_eh_17]
+root         250       2  0 Feb21 ?        00:00:00 [scsi_tmf_17]
+root         251       2  0 Feb21 ?        00:00:00 [scsi_eh_18]
+root         253       2  0 Feb21 ?        00:00:00 [scsi_tmf_18]
+root         254       2  0 Feb21 ?        00:00:00 [scsi_eh_19]
+root         255       2  0 Feb21 ?        00:00:17 [irq/16-vmwgfx]
+root         256       2  0 Feb21 ?        00:00:00 [scsi_tmf_19]
+root         257       2  0 Feb21 ?        00:00:00 [scsi_eh_20]
+root         258       2  0 Feb21 ?        00:00:00 [scsi_tmf_20]
+root         259       2  0 Feb21 ?        00:00:00 [scsi_eh_21]
+root         260       2  0 Feb21 ?        00:00:00 [ttm_swap]
+root         261       2  0 Feb21 ?        00:00:00 [scsi_tmf_21]
+root         262       2  0 Feb21 ?        00:00:00 [scsi_eh_22]
+root         263       2  0 Feb21 ?        00:00:00 [scsi_tmf_22]
+root         264       2  0 Feb21 ?        00:00:00 [scsi_eh_23]
+root         265       2  0 Feb21 ?        00:00:00 [scsi_tmf_23]
+root         266       2  0 Feb21 ?        00:00:00 [scsi_eh_24]
+root         267       2  0 Feb21 ?        00:00:00 [scsi_tmf_24]
+root         268       2  0 Feb21 ?        00:00:00 [scsi_eh_25]
+root         269       2  0 Feb21 ?        00:00:00 [scsi_tmf_25]
+root         270       2  0 Feb21 ?        00:00:00 [scsi_eh_26]
+root         271       2  0 Feb21 ?        00:00:00 [scsi_tmf_26]
+root         272       2  0 Feb21 ?        00:00:00 [scsi_eh_27]
+root         273       2  0 Feb21 ?        00:00:00 [scsi_tmf_27]
+root         274       2  0 Feb21 ?        00:00:00 [scsi_eh_28]
+root         275       2  0 Feb21 ?        00:00:00 [scsi_tmf_28]
+root         276       2  0 Feb21 ?        00:00:00 [scsi_eh_29]
+root         277       2  0 Feb21 ?        00:00:00 [scsi_tmf_29]
+root         278       2  0 Feb21 ?        00:00:00 [scsi_eh_30]
+root         279       2  0 Feb21 ?        00:00:00 [scsi_tmf_30]
+root         280       2  0 Feb21 ?        00:00:00 [scsi_eh_31]
+root         281       2  0 Feb21 ?        00:00:00 [scsi_tmf_31]
+root         309       2  0 Feb21 ?        00:00:00 [scsi_eh_32]
+root         310       2  0 Feb21 ?        00:00:00 [scsi_tmf_32]
+root         312       2  0 Feb21 ?        00:01:01 [kworker/0:1H-kblockd]
+root         335       2  0 Feb21 ?        00:00:00 [kdmflush]
+root         363       2  0 Feb21 ?        00:00:00 [raid5wq]
+root         407       2  0 Feb21 ?        00:00:31 [jbd2/dm-0-8]
+root         408       2  0 Feb21 ?        00:00:00 [ext4-rsv-conver]
+root         482       1  0 Feb21 ?        00:02:53 /lib/systemd/systemd-journald
+root         512       1  0 Feb21 ?        00:00:02 /lib/systemd/systemd-udevd
+root         684       2  0 Feb21 ?        00:00:00 [kaluad]
+root         685       2  0 Feb21 ?        00:00:00 [kmpath_rdacd]
+root         686       2  0 Feb21 ?        00:00:00 [kmpathd]
+root         687       2  0 Feb21 ?        00:00:00 [kmpath_handlerd]
+root         688       1  0 Feb21 ?        00:03:53 /sbin/multipathd -d -s
+root         702       2  0 Feb21 ?        00:00:00 [loop0]
+root         703       2  0 Feb21 ?        00:00:00 [loop1]
+root         706       2  0 Feb21 ?        00:00:00 [loop2]
+root         707       2  0 Feb21 ?        00:00:00 [loop3]
+root         708       2  0 Feb21 ?        00:00:00 [loop4]
+root         712       2  0 Feb21 ?        00:00:00 [jbd2/sda2-8]
+root         713       2  0 Feb21 ?        00:00:00 [ext4-rsv-conver]
+systemd+     726       1  0 Feb21 ?        00:00:01 /lib/systemd/systemd-timesyncd
+root         737       1  0 Feb21 ?        00:00:00 /usr/bin/VGAuthService
+root         738       1  0 Feb21 ?        00:05:25 /usr/bin/vmtoolsd
+systemd+     784       1  0 Feb21 ?        00:00:01 /lib/systemd/systemd-networkd
+systemd+     786       1  0 Feb21 ?        00:00:01 /lib/systemd/systemd-resolved
+root         797       1  0 Feb21 ?        00:00:27 /usr/lib/accountsservice/accounts-daemon
+root         800       1  0 Feb21 ?        00:00:00 /usr/sbin/cron -f
+message+     801       1  0 Feb21 ?        00:00:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         808       1  0 Feb21 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+syslog       810       1  0 Feb21 ?        00:00:30 /usr/sbin/rsyslogd -n -iNONE
+root         812       1  0 Feb21 ?        00:00:28 /usr/lib/snapd/snapd
+root         815       1  0 Feb21 ?        00:00:01 /lib/systemd/systemd-logind
+root         817       1  0 Feb21 ?        00:00:00 /usr/lib/udisks2/udisksd
+daemon       818       1  0 Feb21 ?        00:00:00 /usr/sbin/atd -f
+root         853       1  0 Feb21 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+root         865       1  0 Feb21 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        1270       1  0 Feb21 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root        1276       1  0 Feb21 tty1     00:00:00 /bin/login -p --
+deployer    1406       1  0 Feb21 ?        00:00:00 /lib/systemd/systemd --user
+deployer    1407    1406  0 Feb21 ?        00:00:00 (sd-pam)
+deployer    1412    1276  0 Feb21 tty1     00:00:00 -bash
+root        1664    1270  0 Feb21 ?        00:00:00 sshd: chris [priv]
+chris       1688       1  0 Feb21 ?        00:00:00 /lib/systemd/systemd --user
+chris       1690    1688  0 Feb21 ?        00:00:00 (sd-pam)
+chris       1769    1664  0 Feb21 ?        00:00:00 sshd: chris@pts/0
+chris       1770    1769  0 Feb21 pts/0    00:00:00 -bash
+root        1898    1770  0 Feb21 pts/0    00:00:00 sudo su - deployer
+root        1905    1898  0 Feb21 pts/0    00:00:00 su - deployer
+deployer    1906    1905  0 Feb21 pts/0    00:00:00 -bash
+root        1919    1906  0 Feb21 pts/0    00:00:00 sudo -i
+root        1922    1919  0 Feb21 pts/0    00:00:00 -bash
+uuidd       2705       1  0 Feb21 ?        00:00:00 /usr/sbin/uuidd --socket-activation
+root        3488    1922  0 Feb21 pts/0    00:00:00 su deployer
+deployer    3489    3488  0 Feb21 pts/0    00:00:00 bash
+deployer    3512       1  0 Feb21 ?        00:00:00 ssh-agent
+deployer    3718       1  0 Feb21 ?        00:00:00 ssh-agent
+root        3865       1  0 Feb21 ?        00:00:00 /usr/lib/upower/upowerd
+deployer    4839       1  0 Feb21 ?        00:00:00 ssh-agent
+root      195757       2  0 Feb24 ?        00:00:00 [loop6]
+root      217990       2  0 Feb24 ?        00:00:00 [loop7]
+root      224021       2  0 Feb24 ?        00:00:12 [kworker/0:1-events]
+deployer  230361    1412  0 Feb24 tty1     00:00:00 vi inventory.txt
+root      240215       2  0 01:16 ?        00:00:00 [kworker/u2:0-events_power_efficient]
+root      240879       2  0 01:26 ?        00:00:00 [kworker/u2:1-events_power_efficient]
+root      240986       2  0 01:28 ?        00:00:00 [kworker/0:2-cgroup_destroy]
+root      241007    1270  0 01:29 ?        00:00:00 sshd: chris [priv]
+chris     241090  241007  0 01:29 ?        00:00:00 sshd: chris@notty
+root      241453       2  0 01:36 ?        00:00:00 [kworker/u2:2-events_power_efficient]
+chris     241594  241090  0 01:39 ?        00:00:00 ps -ef
+### END ps -ef ###
+
+### BEGIN netstat -an --inet ###
+
+### END netstat -an --inet ###
+
+### BEGIN last -adx ###
+
+chris    pts/0        Mon Feb 21 16:34   still logged in    MGMT01-Chris.chris.local
+deployer tty1         Mon Feb 21 16:30   still logged in
+runlevel (to lvl 5)   Mon Feb 21 16:30   still running      5.4.0-94-generic
+reboot   system boot  Mon Feb 21 16:30   still running      5.4.0-94-generic
+shutdown system down  Mon Feb 21 16:30 - 16:30  (00:00)     5.4.0-94-generic
+deployer tty1         Mon Feb 21 16:27 - down   (00:02)
+runlevel (to lvl 5)   Mon Feb 21 16:27 - 16:30  (00:02)     5.4.0-94-generic
+reboot   system boot  Mon Feb 21 16:26 - 16:30  (00:03)     5.4.0-94-generic
+shutdown system down  Mon Feb 21 16:26 - 16:26  (00:00)     5.4.0-94-generic
+champuse tty1         Mon Feb 21 15:59 - down   (00:27)
+runlevel (to lvl 5)   Mon Feb 21 15:57 - 16:26  (00:29)     5.4.0-94-generic
+reboot   system boot  Mon Feb 21 15:57 - 16:26  (00:29)     5.4.0-94-generic
+shutdown system down  Wed Jan 12 01:44 - 15:57 (40+14:12)   5.4.0-94-generic
+
+wtmp begins Wed Jan 12 01:44:55 2022
+### END last -adx ###
+
+### BEGIN cut -d: -f1 /etc/passwd ###
+
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+gnats
+nobody
+systemd-network
+systemd-resolve
+systemd-timesync
+messagebus
+syslog
+_apt
+tss
+uuidd
+tcpdump
+landscape
+pollinate
+usbmux
+sshd
+systemd-coredump
+champuser
+lxd
+chris
+deployer
+### END cut -d: -f1 /etc/passwd ###
+
+### BEGIN ps -ef ###
+
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 Feb21 ?        00:00:12 /sbin/init maybe-ubiquity
+root           2       0  0 Feb21 ?        00:00:00 [kthreadd]
+root           3       2  0 Feb21 ?        00:00:00 [rcu_gp]
+root           4       2  0 Feb21 ?        00:00:00 [rcu_par_gp]
+root           6       2  0 Feb21 ?        00:00:00 [kworker/0:0H]
+root           8       2  0 Feb21 ?        00:00:00 [mm_percpu_wq]
+root           9       2  0 Feb21 ?        00:00:02 [ksoftirqd/0]
+root          10       2  0 Feb21 ?        00:00:42 [rcu_sched]
+root          11       2  0 Feb21 ?        00:00:01 [migration/0]
+root          12       2  0 Feb21 ?        00:00:00 [idle_inject/0]
+root          14       2  0 Feb21 ?        00:00:00 [cpuhp/0]
+root          15       2  0 Feb21 ?        00:00:00 [kdevtmpfs]
+root          16       2  0 Feb21 ?        00:00:00 [netns]
+root          17       2  0 Feb21 ?        00:00:00 [rcu_tasks_kthre]
+root          18       2  0 Feb21 ?        00:00:00 [kauditd]
+root          19       2  0 Feb21 ?        00:00:00 [khungtaskd]
+root          20       2  0 Feb21 ?        00:00:00 [oom_reaper]
+root          21       2  0 Feb21 ?        00:00:00 [writeback]
+root          22       2  0 Feb21 ?        00:00:00 [kcompactd0]
+root          23       2  0 Feb21 ?        00:00:00 [ksmd]
+root          24       2  0 Feb21 ?        00:00:00 [khugepaged]
+root          70       2  0 Feb21 ?        00:00:00 [kintegrityd]
+root          71       2  0 Feb21 ?        00:00:00 [kblockd]
+root          72       2  0 Feb21 ?        00:00:00 [blkcg_punt_bio]
+root          73       2  0 Feb21 ?        00:00:00 [tpm_dev_wq]
+root          74       2  0 Feb21 ?        00:00:00 [ata_sff]
+root          75       2  0 Feb21 ?        00:00:00 [md]
+root          76       2  0 Feb21 ?        00:00:00 [edac-poller]
+root          77       2  0 Feb21 ?        00:00:00 [devfreq_wq]
+root          78       2  0 Feb21 ?        00:00:00 [watchdogd]
+root          81       2  0 Feb21 ?        00:00:00 [kswapd0]
+root          82       2  0 Feb21 ?        00:00:00 [ecryptfs-kthrea]
+root          84       2  0 Feb21 ?        00:00:00 [kthrotld]
+root          85       2  0 Feb21 ?        00:00:00 [irq/24-pciehp]
+root          86       2  0 Feb21 ?        00:00:00 [irq/25-pciehp]
+root          87       2  0 Feb21 ?        00:00:00 [irq/26-pciehp]
+root          88       2  0 Feb21 ?        00:00:00 [irq/27-pciehp]
+root          89       2  0 Feb21 ?        00:00:00 [irq/28-pciehp]
+root          90       2  0 Feb21 ?        00:00:00 [irq/29-pciehp]
+root          91       2  0 Feb21 ?        00:00:00 [irq/30-pciehp]
+root          92       2  0 Feb21 ?        00:00:00 [irq/31-pciehp]
+root          93       2  0 Feb21 ?        00:00:00 [irq/32-pciehp]
+root          94       2  0 Feb21 ?        00:00:00 [irq/33-pciehp]
+root          95       2  0 Feb21 ?        00:00:00 [irq/34-pciehp]
+root          96       2  0 Feb21 ?        00:00:00 [irq/35-pciehp]
+root          97       2  0 Feb21 ?        00:00:00 [irq/36-pciehp]
+root          98       2  0 Feb21 ?        00:00:00 [irq/37-pciehp]
+root          99       2  0 Feb21 ?        00:00:00 [irq/38-pciehp]
+root         100       2  0 Feb21 ?        00:00:00 [irq/39-pciehp]
+root         101       2  0 Feb21 ?        00:00:00 [irq/40-pciehp]
+root         102       2  0 Feb21 ?        00:00:00 [irq/41-pciehp]
+root         103       2  0 Feb21 ?        00:00:00 [irq/42-pciehp]
+root         104       2  0 Feb21 ?        00:00:00 [irq/43-pciehp]
+root         105       2  0 Feb21 ?        00:00:00 [irq/44-pciehp]
+root         106       2  0 Feb21 ?        00:00:00 [irq/45-pciehp]
+root         107       2  0 Feb21 ?        00:00:00 [irq/46-pciehp]
+root         108       2  0 Feb21 ?        00:00:00 [irq/47-pciehp]
+root         109       2  0 Feb21 ?        00:00:00 [irq/48-pciehp]
+root         110       2  0 Feb21 ?        00:00:00 [irq/49-pciehp]
+root         111       2  0 Feb21 ?        00:00:00 [irq/50-pciehp]
+root         112       2  0 Feb21 ?        00:00:00 [irq/51-pciehp]
+root         113       2  0 Feb21 ?        00:00:00 [irq/52-pciehp]
+root         114       2  0 Feb21 ?        00:00:00 [irq/53-pciehp]
+root         115       2  0 Feb21 ?        00:00:00 [irq/54-pciehp]
+root         116       2  0 Feb21 ?        00:00:00 [irq/55-pciehp]
+root         117       2  0 Feb21 ?        00:00:00 [acpi_thermal_pm]
+root         118       2  0 Feb21 ?        00:00:00 [scsi_eh_0]
+root         119       2  0 Feb21 ?        00:00:00 [scsi_tmf_0]
+root         120       2  0 Feb21 ?        00:00:00 [scsi_eh_1]
+root         121       2  0 Feb21 ?        00:00:00 [scsi_tmf_1]
+root         123       2  0 Feb21 ?        00:00:00 [vfio-irqfd-clea]
+root         124       2  0 Feb21 ?        00:00:00 [ipv6_addrconf]
+root         134       2  0 Feb21 ?        00:00:00 [kstrp]
+root         137       2  0 Feb21 ?        00:00:00 [kworker/u3:0]
+root         150       2  0 Feb21 ?        00:00:00 [charger_manager]
+root         184       2  0 Feb21 ?        00:00:00 [mpt_poll_0]
+root         185       2  0 Feb21 ?        00:00:00 [scsi_eh_2]
+root         186       2  0 Feb21 ?        00:00:00 [mpt/0]
+root         187       2  0 Feb21 ?        00:00:00 [scsi_tmf_2]
+root         188       2  0 Feb21 ?        00:00:00 [cryptd]
+root         189       2  0 Feb21 ?        00:00:00 [scsi_eh_3]
+root         190       2  0 Feb21 ?        00:00:00 [scsi_tmf_3]
+root         191       2  0 Feb21 ?        00:00:00 [scsi_eh_4]
+root         195       2  0 Feb21 ?        00:00:00 [scsi_tmf_4]
+root         196       2  0 Feb21 ?        00:00:00 [scsi_eh_5]
+root         199       2  0 Feb21 ?        00:00:00 [scsi_tmf_5]
+root         201       2  0 Feb21 ?        00:00:00 [scsi_eh_6]
+root         203       2  0 Feb21 ?        00:00:00 [scsi_tmf_6]
+root         206       2  0 Feb21 ?        00:00:00 [scsi_eh_7]
+root         208       2  0 Feb21 ?        00:00:00 [scsi_tmf_7]
+root         209       2  0 Feb21 ?        00:00:00 [scsi_eh_8]
+root         212       2  0 Feb21 ?        00:00:00 [scsi_tmf_8]
+root         214       2  0 Feb21 ?        00:00:00 [scsi_eh_9]
+root         216       2  0 Feb21 ?        00:00:00 [scsi_tmf_9]
+root         219       2  0 Feb21 ?        00:00:00 [scsi_eh_10]
+root         221       2  0 Feb21 ?        00:00:00 [scsi_tmf_10]
+root         223       2  0 Feb21 ?        00:00:00 [scsi_eh_11]
+root         227       2  0 Feb21 ?        00:00:00 [scsi_tmf_11]
+root         229       2  0 Feb21 ?        00:00:00 [scsi_eh_12]
+root         231       2  0 Feb21 ?        00:00:00 [scsi_tmf_12]
+root         233       2  0 Feb21 ?        00:00:00 [scsi_eh_13]
+root         235       2  0 Feb21 ?        00:00:00 [scsi_tmf_13]
+root         237       2  0 Feb21 ?        00:00:00 [scsi_eh_14]
+root         240       2  0 Feb21 ?        00:00:00 [scsi_tmf_14]
+root         241       2  0 Feb21 ?        00:00:00 [scsi_eh_15]
+root         243       2  0 Feb21 ?        00:00:00 [scsi_tmf_15]
+root         245       2  0 Feb21 ?        00:00:00 [scsi_eh_16]
+root         246       2  0 Feb21 ?        00:00:00 [scsi_tmf_16]
+root         248       2  0 Feb21 ?        00:00:00 [scsi_eh_17]
+root         250       2  0 Feb21 ?        00:00:00 [scsi_tmf_17]
+root         251       2  0 Feb21 ?        00:00:00 [scsi_eh_18]
+root         253       2  0 Feb21 ?        00:00:00 [scsi_tmf_18]
+root         254       2  0 Feb21 ?        00:00:00 [scsi_eh_19]
+root         255       2  0 Feb21 ?        00:00:17 [irq/16-vmwgfx]
+root         256       2  0 Feb21 ?        00:00:00 [scsi_tmf_19]
+root         257       2  0 Feb21 ?        00:00:00 [scsi_eh_20]
+root         258       2  0 Feb21 ?        00:00:00 [scsi_tmf_20]
+root         259       2  0 Feb21 ?        00:00:00 [scsi_eh_21]
+root         260       2  0 Feb21 ?        00:00:00 [ttm_swap]
+root         261       2  0 Feb21 ?        00:00:00 [scsi_tmf_21]
+root         262       2  0 Feb21 ?        00:00:00 [scsi_eh_22]
+root         263       2  0 Feb21 ?        00:00:00 [scsi_tmf_22]
+root         264       2  0 Feb21 ?        00:00:00 [scsi_eh_23]
+root         265       2  0 Feb21 ?        00:00:00 [scsi_tmf_23]
+root         266       2  0 Feb21 ?        00:00:00 [scsi_eh_24]
+root         267       2  0 Feb21 ?        00:00:00 [scsi_tmf_24]
+root         268       2  0 Feb21 ?        00:00:00 [scsi_eh_25]
+root         269       2  0 Feb21 ?        00:00:00 [scsi_tmf_25]
+root         270       2  0 Feb21 ?        00:00:00 [scsi_eh_26]
+root         271       2  0 Feb21 ?        00:00:00 [scsi_tmf_26]
+root         272       2  0 Feb21 ?        00:00:00 [scsi_eh_27]
+root         273       2  0 Feb21 ?        00:00:00 [scsi_tmf_27]
+root         274       2  0 Feb21 ?        00:00:00 [scsi_eh_28]
+root         275       2  0 Feb21 ?        00:00:00 [scsi_tmf_28]
+root         276       2  0 Feb21 ?        00:00:00 [scsi_eh_29]
+root         277       2  0 Feb21 ?        00:00:00 [scsi_tmf_29]
+root         278       2  0 Feb21 ?        00:00:00 [scsi_eh_30]
+root         279       2  0 Feb21 ?        00:00:00 [scsi_tmf_30]
+root         280       2  0 Feb21 ?        00:00:00 [scsi_eh_31]
+root         281       2  0 Feb21 ?        00:00:00 [scsi_tmf_31]
+root         309       2  0 Feb21 ?        00:00:00 [scsi_eh_32]
+root         310       2  0 Feb21 ?        00:00:00 [scsi_tmf_32]
+root         312       2  0 Feb21 ?        00:01:01 [kworker/0:1H-kblockd]
+root         335       2  0 Feb21 ?        00:00:00 [kdmflush]
+root         363       2  0 Feb21 ?        00:00:00 [raid5wq]
+root         407       2  0 Feb21 ?        00:00:31 [jbd2/dm-0-8]
+root         408       2  0 Feb21 ?        00:00:00 [ext4-rsv-conver]
+root         482       1  0 Feb21 ?        00:02:53 /lib/systemd/systemd-journald
+root         512       1  0 Feb21 ?        00:00:02 /lib/systemd/systemd-udevd
+root         684       2  0 Feb21 ?        00:00:00 [kaluad]
+root         685       2  0 Feb21 ?        00:00:00 [kmpath_rdacd]
+root         686       2  0 Feb21 ?        00:00:00 [kmpathd]
+root         687       2  0 Feb21 ?        00:00:00 [kmpath_handlerd]
+root         688       1  0 Feb21 ?        00:03:53 /sbin/multipathd -d -s
+root         702       2  0 Feb21 ?        00:00:00 [loop0]
+root         703       2  0 Feb21 ?        00:00:00 [loop1]
+root         706       2  0 Feb21 ?        00:00:00 [loop2]
+root         707       2  0 Feb21 ?        00:00:00 [loop3]
+root         708       2  0 Feb21 ?        00:00:00 [loop4]
+root         712       2  0 Feb21 ?        00:00:00 [jbd2/sda2-8]
+root         713       2  0 Feb21 ?        00:00:00 [ext4-rsv-conver]
+systemd+     726       1  0 Feb21 ?        00:00:01 /lib/systemd/systemd-timesyncd
+root         737       1  0 Feb21 ?        00:00:00 /usr/bin/VGAuthService
+root         738       1  0 Feb21 ?        00:05:26 /usr/bin/vmtoolsd
+systemd+     784       1  0 Feb21 ?        00:00:01 /lib/systemd/systemd-networkd
+systemd+     786       1  0 Feb21 ?        00:00:01 /lib/systemd/systemd-resolved
+root         797       1  0 Feb21 ?        00:00:27 /usr/lib/accountsservice/accounts-daemon
+root         800       1  0 Feb21 ?        00:00:00 /usr/sbin/cron -f
+message+     801       1  0 Feb21 ?        00:00:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         808       1  0 Feb21 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+syslog       810       1  0 Feb21 ?        00:00:30 /usr/sbin/rsyslogd -n -iNONE
+root         812       1  0 Feb21 ?        00:00:28 /usr/lib/snapd/snapd
+root         815       1  0 Feb21 ?        00:00:01 /lib/systemd/systemd-logind
+root         817       1  0 Feb21 ?        00:00:00 /usr/lib/udisks2/udisksd
+daemon       818       1  0 Feb21 ?        00:00:00 /usr/sbin/atd -f
+root         853       1  0 Feb21 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+root         865       1  0 Feb21 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        1270       1  0 Feb21 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root        1276       1  0 Feb21 tty1     00:00:00 /bin/login -p --
+deployer    1406       1  0 Feb21 ?        00:00:00 /lib/systemd/systemd --user
+deployer    1407    1406  0 Feb21 ?        00:00:00 (sd-pam)
+deployer    1412    1276  0 Feb21 tty1     00:00:00 -bash
+root        1664    1270  0 Feb21 ?        00:00:00 sshd: chris [priv]
+chris       1688       1  0 Feb21 ?        00:00:00 /lib/systemd/systemd --user
+chris       1690    1688  0 Feb21 ?        00:00:00 (sd-pam)
+chris       1769    1664  0 Feb21 ?        00:00:00 sshd: chris@pts/0
+chris       1770    1769  0 Feb21 pts/0    00:00:00 -bash
+root        1898    1770  0 Feb21 pts/0    00:00:00 sudo su - deployer
+root        1905    1898  0 Feb21 pts/0    00:00:00 su - deployer
+deployer    1906    1905  0 Feb21 pts/0    00:00:00 -bash
+root        1919    1906  0 Feb21 pts/0    00:00:00 sudo -i
+root        1922    1919  0 Feb21 pts/0    00:00:00 -bash
+uuidd       2705       1  0 Feb21 ?        00:00:00 /usr/sbin/uuidd --socket-activation
+root        3488    1922  0 Feb21 pts/0    00:00:00 su deployer
+deployer    3489    3488  0 Feb21 pts/0    00:00:00 bash
+deployer    3512       1  0 Feb21 ?        00:00:00 ssh-agent
+deployer    3718       1  0 Feb21 ?        00:00:00 ssh-agent
+root        3865       1  0 Feb21 ?        00:00:00 /usr/lib/upower/upowerd
+deployer    4839       1  0 Feb21 ?        00:00:00 ssh-agent
+root      195757       2  0 Feb24 ?        00:00:00 [loop6]
+root      217990       2  0 Feb24 ?        00:00:00 [loop7]
+root      224021       2  0 Feb24 ?        00:00:12 [kworker/0:1-events]
+deployer  230361    1412  0 Feb24 tty1     00:00:00 vi inventory.txt
+root      240879       2  0 01:26 ?        00:00:00 [kworker/u2:1-events_power_efficient]
+root      240986       2  0 01:28 ?        00:00:00 [kworker/0:2-cgroup_destroy]
+root      241007    1270  0 01:29 ?        00:00:00 sshd: chris [priv]
+chris     241090  241007  0 01:29 ?        00:00:00 sshd: chris@notty
+root      241453       2  0 01:36 ?        00:00:00 [kworker/u2:2-events_power_efficient]
+chris     241714  241090  0 01:41 ?        00:00:00 ps -ef
+### END ps -ef ###
+
+### BEGIN netstat -an --inet ###
+
+### END netstat -an --inet ###
+
+### BEGIN last -adx ###
+
+chris    pts/0        Mon Feb 21 16:34   still logged in    MGMT01-Chris.chris.local
+deployer tty1         Mon Feb 21 16:30   still logged in
+runlevel (to lvl 5)   Mon Feb 21 16:30   still running      5.4.0-94-generic
+reboot   system boot  Mon Feb 21 16:30   still running      5.4.0-94-generic
+shutdown system down  Mon Feb 21 16:30 - 16:30  (00:00)     5.4.0-94-generic
+deployer tty1         Mon Feb 21 16:27 - down   (00:02)
+runlevel (to lvl 5)   Mon Feb 21 16:27 - 16:30  (00:02)     5.4.0-94-generic
+reboot   system boot  Mon Feb 21 16:26 - 16:30  (00:03)     5.4.0-94-generic
+shutdown system down  Mon Feb 21 16:26 - 16:26  (00:00)     5.4.0-94-generic
+champuse tty1         Mon Feb 21 15:59 - down   (00:27)
+runlevel (to lvl 5)   Mon Feb 21 15:57 - 16:26  (00:29)     5.4.0-94-generic
+reboot   system boot  Mon Feb 21 15:57 - 16:26  (00:29)     5.4.0-94-generic
+shutdown system down  Wed Jan 12 01:44 - 15:57 (40+14:12)   5.4.0-94-generic
+
+wtmp begins Wed Jan 12 01:44:55 2022
+### END last -adx ###
+
+### BEGIN cut -d: -f1 /etc/passwd ###
+
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+gnats
+nobody
+systemd-network
+systemd-resolve
+systemd-timesync
+messagebus
+syslog
+_apt
+tss
+uuidd
+tcpdump
+landscape
+pollinate
+usbmux
+sshd
+systemd-coredump
+champuser
+lxd
+chris
+deployer
+### END cut -d: -f1 /etc/passwd ###
+
