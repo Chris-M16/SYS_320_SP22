@@ -1,0 +1,36 @@
+COMMAND  PID     USER   FD      TYPE DEVICE SIZE/OFF   NODE NAME
+ls      3138 p.dalton  cwd       DIR    8,1     4096 258130 /home/p.dalton/test-lk
+ls      3138 p.dalton  rtd       DIR    8,1     4096      2 /
+ls      3138 p.dalton  txt       REG    8,1  6597697 258133 /usr/local/bin/ls
+ls      3138 p.dalton  DEL       REG    8,1            3453 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+ls      3138 p.dalton  DEL       REG    8,1            3466 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+ls      3138 p.dalton  DEL       REG    8,1            3449 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+ls      3138 p.dalton    0r      CHR    1,3      0t0      6 /dev/null
+ls      3138 p.dalton    1w      REG    8,1       85 258135 /home/p.dalton/test-lk/.d.log
+ls      3138 p.dalton    2w      REG    8,1       85 258135 /home/p.dalton/test-lk/.d.log
+ls      3138 p.dalton    3r      CHR    1,3      0t0      6 /dev/null
+ls      3138 p.dalton    4u      REG    8,1        4 258134 /home/p.dalton/test-lk/d.pid
+ls      3138 p.dalton    5u     IPv6  33422      0t0    TCP *:http-alt (LISTEN)
+ls      3138 p.dalton    7u  a_inode   0,14        0  10376 [eventpoll]
+ls      3138 p.dalton    8r     FIFO   0,13      0t0  33424 pipe
+ls      3138 p.dalton    9w     FIFO   0,13      0t0  33424 pipe
+COMMAND   PID USER   FD      TYPE             DEVICE SIZE/OFF   NODE NAME
+snapd   25680 root  cwd       DIR                8,1     4096      2 /
+snapd   25680 root  rtd       DIR                8,1     4096      2 /
+snapd   25680 root  txt       REG                8,1 30955760  16810 /usr/lib/snapd/snapd
+snapd   25680 root  DEL       REG                8,1            3467 /usr/lib/x86_64-linux-gnu/libresolv-2.31.so
+snapd   25680 root  DEL       REG                8,1            3460 /usr/lib/x86_64-linux-gnu/libnss_dns-2.31.so
+snapd   25680 root  DEL       REG                8,1            3461 /usr/lib/x86_64-linux-gnu/libnss_files-2.31.so
+snapd   25680 root  DEL       REG                8,1            3453 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+snapd   25680 root  DEL       REG                8,1            3466 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+snapd   25680 root  DEL       REG                8,1            3449 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+snapd   25680 root    0r      CHR                1,3      0t0      6 /dev/null
+snapd   25680 root    1u     unix 0xffff89caeb601c00      0t0 120340 type=STREAM
+snapd   25680 root    2u     unix 0xffff89caeb601c00      0t0 120340 type=STREAM
+snapd   25680 root    3u     unix 0xffff89ca3c94c800      0t0 120744 type=STREAM
+snapd   25680 root    5u     unix 0xffff89ca41db5000      0t0 120154 /run/snapd.socket type=STREAM
+snapd   25680 root    6u  a_inode               0,14        0  10376 [eventpoll]
+snapd   25680 root    7u     unix 0xffff89ca41db5400      0t0 120155 /run/snapd-snap.socket type=STREAM
+snapd   25680 root    8u  netlink                         0t0 121049 KOBJECT_UEVENT
+snapd   25680 root    9r     FIFO               0,13      0t0 121050 pipe
+snapd   25680 root   10w     FIFO               0,13      0t0 121050 pipe
