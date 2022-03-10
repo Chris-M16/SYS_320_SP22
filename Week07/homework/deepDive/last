@@ -1,3 +1,116 @@
+asani.ve pts/1        192.168.6.73     Thu Mar 10 14:41:10 2022 - Thu Mar 10 15:14:05 2022  (00:32)
+asani.ve pts/1        192.168.6.73     Thu Mar 10 10:13:24 2022 - Thu Mar 10 10:26:46 2022  (00:13)
+asani.ve pts/1        192.168.6.73     Thu Mar 10 10:11:27 2022 - Thu Mar 10 10:13:01 2022  (00:01)
+ubuntu   pts/0        10.223.0.1       Thu Mar 10 08:21:21 2022   still logged in
+asani.ve pts/0        192.168.6.73     Thu Mar 10 01:52:34 2022 - Thu Mar 10 02:15:01 2022  (00:22)
+asani.ve pts/0        192.168.6.73     Thu Mar 10 01:44:07 2022 - Thu Mar 10 01:52:08 2022  (00:08)
+asani.ve pts/1        192.168.6.73     Thu Mar 10 00:47:25 2022 - Thu Mar 10 01:43:41 2022  (00:56)
+asani.ve pts/1        192.168.6.73     Thu Mar 10 00:10:30 2022 - Thu Mar 10 00:46:55 2022  (00:36)
+asani.ve pts/1        192.168.6.73     Thu Mar 10 00:09:07 2022 - Thu Mar 10 00:09:51 2022  (00:00)
+asani.ve pts/2        192.168.6.73     Wed Mar  9 22:35:32 2022 - Wed Mar  9 23:48:44 2022  (01:13)
+asani.ve pts/1        192.168.6.73     Wed Mar  9 21:59:43 2022 - Wed Mar  9 22:38:52 2022  (00:39)
+asani.ve pts/1        192.168.6.73     Wed Mar  9 20:35:19 2022 - Wed Mar  9 20:55:32 2022  (00:20)
+asani.ve pts/1        192.168.6.73     Wed Mar  9 19:30:49 2022 - Wed Mar  9 20:24:34 2022  (00:53)
+jahseem. pts/0        192.168.6.72     Wed Mar  9 16:05:35 2022 - Thu Mar 10 01:18:27 2022  (09:12)
+jahseem. pts/0        192.168.6.72     Wed Mar  9 15:42:18 2022 - Wed Mar  9 16:03:41 2022  (00:21)
+jahseem. pts/0        192.168.6.72     Wed Mar  9 14:00:48 2022 - Wed Mar  9 14:32:18 2022  (00:31)
+eli.mink pts/0        184.171.144.168  Tue Mar  8 23:41:30 2022 - Tue Mar  8 23:41:32 2022  (00:00)
+eli.mink pts/0        184.171.144.168  Tue Mar  8 23:41:11 2022 - Tue Mar  8 23:41:30 2022  (00:00)
+eli.mink pts/0        184.171.144.168  Tue Mar  8 23:37:42 2022 - Tue Mar  8 23:37:51 2022  (00:00)
+eli.mink pts/0        184.171.144.168  Tue Mar  8 23:37:17 2022 - Tue Mar  8 23:37:42 2022  (00:00)
+eli.mink pts/0        184.171.144.168  Tue Mar  8 23:37:03 2022 - Tue Mar  8 23:37:05 2022  (00:00)
+ciaran.b pts/0        184.171.149.210  Tue Mar  8 22:23:18 2022 - Tue Mar  8 23:17:50 2022  (00:54)
+john.tis pts/0        184.171.150.151  Tue Mar  8 22:19:09 2022 - Tue Mar  8 22:20:42 2022  (00:01)
+eli.mink pts/2        184.171.144.168  Tue Mar  8 21:18:53 2022 - Tue Mar  8 21:19:11 2022  (00:00)
+samuel.b pts/2        184.171.155.18   Tue Mar  8 20:25:30 2022 - Tue Mar  8 20:25:56 2022  (00:00)
+ciaran.b pts/2        184.171.149.210  Tue Mar  8 19:51:29 2022 - Tue Mar  8 19:51:29 2022  (00:00)
+ciaran.b pts/2        184.171.149.210  Tue Mar  8 19:50:33 2022 - Tue Mar  8 19:50:33 2022  (00:00)
+samuel.b pts/2        184.171.155.18   Tue Mar  8 19:44:24 2022 - Tue Mar  8 19:44:24 2022  (00:00)
+ciaran.b pts/2        184.171.149.210  Tue Mar  8 19:41:34 2022 - Tue Mar  8 19:41:51 2022  (00:00)
+ciaran.b pts/2        184.171.149.210  Tue Mar  8 19:41:34 2022 - Tue Mar  8 19:41:34 2022  (00:00)
+ciaran.b pts/2        184.171.149.210  Tue Mar  8 19:41:14 2022 - Tue Mar  8 19:41:15 2022  (00:00)
+ciaran.b pts/3        184.171.149.210  Tue Mar  8 19:38:58 2022 - Tue Mar  8 19:38:58 2022  (00:00)
+ciaran.b pts/3        184.171.149.210  Tue Mar  8 19:37:17 2022 - Tue Mar  8 19:37:17 2022  (00:00)
+ciaran.b pts/4        184.171.149.210  Tue Mar  8 19:36:51 2022 - Tue Mar  8 19:37:09 2022  (00:00)
+ciaran.b pts/3        184.171.149.210  Tue Mar  8 19:36:51 2022 - Tue Mar  8 19:36:51 2022  (00:00)
+ciaran.b pts/3        184.171.149.210  Tue Mar  8 19:35:04 2022 - Tue Mar  8 19:35:04 2022  (00:00)
+ciaran.b pts/4        184.171.149.210  Tue Mar  8 19:33:38 2022 - Tue Mar  8 19:33:56 2022  (00:00)
+ciaran.b pts/3        184.171.149.210  Tue Mar  8 19:33:38 2022 - Tue Mar  8 19:33:38 2022  (00:00)
+ciaran.b pts/3        184.171.149.210  Tue Mar  8 19:33:28 2022 - Tue Mar  8 19:33:29 2022  (00:00)
+samuel.b pts/2        184.171.155.18   Tue Mar  8 19:31:17 2022 - Tue Mar  8 19:40:42 2022  (00:09)
+ciaran.b pts/3        184.171.149.210  Tue Mar  8 19:28:26 2022 - Tue Mar  8 19:28:43 2022  (00:00)
+ciaran.b pts/2        184.171.149.210  Tue Mar  8 19:28:26 2022 - Tue Mar  8 19:28:26 2022  (00:00)
+ciaran.b pts/2        184.171.149.210  Tue Mar  8 19:27:31 2022 - Tue Mar  8 19:27:48 2022  (00:00)
+ciaran.b pts/2        184.171.149.210  Tue Mar  8 19:27:31 2022 - Tue Mar  8 19:27:31 2022  (00:00)
+ciaran.b pts/2        184.171.149.210  Tue Mar  8 19:26:03 2022 - Tue Mar  8 19:26:04 2022  (00:00)
+ciaran.b pts/2        184.171.149.210  Tue Mar  8 19:24:56 2022 - Tue Mar  8 19:24:57 2022  (00:00)
+ciaran.b pts/2        184.171.149.210  Tue Mar  8 19:23:15 2022 - Tue Mar  8 19:23:16 2022  (00:00)
+ciaran.b pts/2        184.171.149.210  Tue Mar  8 19:22:10 2022 - Tue Mar  8 19:22:11 2022  (00:00)
+ciaran.b pts/2        184.171.149.210  Tue Mar  8 19:20:56 2022 - Tue Mar  8 19:21:13 2022  (00:00)
+ciaran.b pts/2        184.171.149.210  Tue Mar  8 19:20:56 2022 - Tue Mar  8 19:20:56 2022  (00:00)
+ciaran.b pts/3        184.171.149.210  Tue Mar  8 19:08:37 2022 - Tue Mar  8 19:08:56 2022  (00:00)
+ciaran.b pts/2        184.171.149.210  Tue Mar  8 19:08:37 2022 - Tue Mar  8 19:08:37 2022  (00:00)
+samuel.b pts/2        184.171.155.18   Tue Mar  8 19:07:18 2022 - Tue Mar  8 19:07:58 2022  (00:00)
+ciaran.b pts/2        184.171.149.210  Tue Mar  8 19:06:51 2022 - Tue Mar  8 19:07:08 2022  (00:00)
+ciaran.b pts/2        184.171.149.210  Tue Mar  8 19:06:51 2022 - Tue Mar  8 19:06:51 2022  (00:00)
+ciaran.b pts/3        184.171.149.210  Tue Mar  8 19:03:01 2022 - Tue Mar  8 19:03:19 2022  (00:00)
+ciaran.b pts/2        184.171.149.210  Tue Mar  8 19:03:01 2022 - Tue Mar  8 19:03:02 2022  (00:00)
+ciaran.b pts/3        184.171.149.210  Tue Mar  8 18:56:36 2022 - Tue Mar  8 18:56:57 2022  (00:00)
+ciaran.b pts/2        184.171.149.210  Tue Mar  8 18:56:36 2022 - Tue Mar  8 18:56:36 2022  (00:00)
+ciaran.b pts/3        184.171.149.210  Tue Mar  8 18:55:57 2022 - Tue Mar  8 18:56:14 2022  (00:00)
+ciaran.b pts/2        184.171.149.210  Tue Mar  8 18:55:57 2022 - Tue Mar  8 18:55:57 2022  (00:00)
+ciaran.b pts/2        184.171.149.210  Tue Mar  8 18:52:14 2022 - Tue Mar  8 18:52:31 2022  (00:00)
+ciaran.b pts/2        184.171.149.210  Tue Mar  8 18:52:14 2022 - Tue Mar  8 18:52:14 2022  (00:00)
+ciaran.b pts/3        184.171.149.210  Tue Mar  8 18:47:15 2022 - Tue Mar  8 18:47:32 2022  (00:00)
+ciaran.b pts/2        184.171.149.210  Tue Mar  8 18:47:15 2022 - Tue Mar  8 18:47:15 2022  (00:00)
+ciaran.b pts/3        184.171.149.210  Tue Mar  8 18:42:47 2022 - Tue Mar  8 18:43:04 2022  (00:00)
+ciaran.b pts/2        184.171.149.210  Tue Mar  8 18:42:47 2022 - Tue Mar  8 18:42:47 2022  (00:00)
+ciaran.b pts/0        184.171.149.210  Tue Mar  8 18:14:34 2022 - Tue Mar  8 22:10:34 2022  (03:56)
+john.tis pts/0        184.171.150.151  Tue Mar  8 18:03:13 2022 - Tue Mar  8 18:03:22 2022  (00:00)
+eli.mink pts/3        tmux(108647).%1  Tue Mar  8 17:22:21 2022 - Tue Mar  8 17:22:25 2022  (00:00)
+eli.mink pts/2        tmux(108647).%0  Tue Mar  8 17:22:21 2022 - Tue Mar  8 17:22:21 2022  (00:00)
+eli.mink pts/0        184.171.144.168  Tue Mar  8 17:21:54 2022 - Tue Mar  8 17:22:39 2022  (00:00)
+ubuntu   pts/2        10.223.0.1       Tue Mar  8 14:07:08 2022 - Tue Mar  8 14:08:19 2022  (00:01)
+ubuntu   pts/0        10.223.0.1       Tue Mar  8 10:36:52 2022 - Tue Mar  8 15:34:44 2022  (04:57)
+noah.sti pts/0        192.168.6.72     Mon Mar  7 18:59:17 2022 - Mon Mar  7 23:14:02 2022  (04:14)
+noah.sti pts/2        192.168.6.72     Mon Mar  7 10:53:31 2022 - Mon Mar  7 11:07:47 2022  (00:14)
+ubuntu   pts/1        10.223.0.1       Sat Mar  5 22:22:40 2022 - Wed Mar  9 13:25:37 2022 (3+15:02)
+thomas.a pts/2        184.171.154.61   Thu Mar  3 19:11:44 2022 - Thu Mar  3 20:17:00 2022  (01:05)
+samuel.j pts/4        184.171.155.103  Thu Mar  3 15:18:32 2022 - Thu Mar  3 15:19:00 2022  (00:00)
+ubuntu   pts/3        10.223.0.1       Thu Mar  3 15:10:00 2022 - Thu Mar  3 15:49:36 2022  (00:39)
+ubuntu   pts/3        10.223.0.1       Thu Mar  3 14:37:09 2022 - Thu Mar  3 14:53:38 2022  (00:16)
+eli.mink pts/5        tmux(55045).%1   Thu Mar  3 14:30:26 2022 - Thu Mar  3 14:30:52 2022  (00:00)
+eli.mink pts/4        tmux(55045).%0   Thu Mar  3 14:30:26 2022 - Thu Mar  3 14:30:26 2022  (00:00)
+eli.mink pts/3        184.171.144.150  Thu Mar  3 14:23:20 2022 - Thu Mar  3 14:34:35 2022  (00:11)
+ubuntu   pts/4        10.223.0.1       Thu Mar  3 13:40:23 2022 - Thu Mar  3 13:55:18 2022  (00:14)
+christop pts/3        192.168.6.73     Thu Mar  3 13:29:24 2022 - Thu Mar  3 14:18:40 2022  (00:49)
+samuel.j pts/3        184.171.155.103  Thu Mar  3 13:11:31 2022 - Thu Mar  3 13:21:37 2022  (00:10)
+samuel.j pts/3        184.171.155.103  Thu Mar  3 13:08:15 2022 - Thu Mar  3 13:08:33 2022  (00:00)
+samuel.j pts/3        184.171.155.103  Thu Mar  3 12:55:59 2022 - Thu Mar  3 12:57:19 2022  (00:01)
+thomas.a pts/2        184.171.154.61   Thu Mar  3 12:55:43 2022 - Thu Mar  3 15:49:29 2022  (02:53)
+duane.du pts/2        192.168.6.72     Wed Mar  2 20:55:20 2022 - Wed Mar  2 20:55:42 2022  (00:00)
+duane.du pts/2        192.168.6.72     Wed Mar  2 20:54:33 2022 - Wed Mar  2 20:55:15 2022  (00:00)
+duane.du pts/2        192.168.6.72     Wed Mar  2 20:50:40 2022 - Wed Mar  2 20:50:58 2022  (00:00)
+duane.du pts/2        192.168.6.72     Wed Mar  2 20:47:16 2022 - Wed Mar  2 20:47:28 2022  (00:00)
+duane.du pts/2        192.168.6.72     Wed Mar  2 20:44:08 2022 - Wed Mar  2 20:47:05 2022  (00:02)
+duane.du pts/2        192.168.6.72     Wed Mar  2 20:30:42 2022 - Wed Mar  2 20:30:48 2022  (00:00)
+duane.du pts/2        192.168.6.72     Wed Mar  2 20:30:00 2022 - Wed Mar  2 20:30:08 2022  (00:00)
+ubuntu   pts/2        216.93.152.115   Mon Feb 28 11:56:38 2022 - Mon Feb 28 11:56:45 2022  (00:00)
+ubuntu   pts/0        10.223.0.1       Mon Feb 28 11:52:26 2022 - Mon Mar  7 11:41:39 2022 (6+23:49)
+ubuntu   pts/0        10.223.0.1       Mon Feb 28 11:52:13 2022 - Mon Feb 28 11:52:22 2022  (00:00)
+ubuntu   pts/0        10.223.0.1       Mon Feb 28 11:51:30 2022 - Mon Feb 28 11:52:12 2022  (00:00)
+ubuntu   pts/0        10.223.0.1       Mon Feb 28 10:11:57 2022 - Mon Feb 28 11:51:29 2022  (01:39)
+ubuntu   pts/1        10.223.0.1       Sun Feb 27 00:58:46 2022 - Sat Mar  5 11:52:04 2022 (6+10:53)
+p.dalton pts/0        192.168.6.72     Sun Feb 27 00:52:43 2022 - Sun Feb 27 01:17:05 2022  (00:24)
+ubuntu   pts/0        10.223.0.1       Sun Feb 27 00:27:02 2022 - Sun Feb 27 00:29:31 2022  (00:02)
+ubuntu   pts/0        10.223.0.1       Sun Feb 27 00:07:34 2022 - Sun Feb 27 00:07:34 2022  (00:00)
+ubuntu   pts/0        10.223.0.1       Sat Feb 26 23:58:01 2022 - Sun Feb 27 00:07:26 2022  (00:09)
+p.dalton pts/1        10.223.0.132     Sat Feb 26 23:50:52 2022 - Sun Feb 27 00:27:37 2022  (00:36)
+p.dalton pts/1        10.223.0.132     Sat Feb 26 23:44:15 2022 - Sat Feb 26 23:44:24 2022  (00:00)
+ubuntu   pts/0        10.223.0.1       Sat Feb 26 23:39:52 2022 - Sat Feb 26 23:56:22 2022  (00:16)
+reboot   system boot  5.4.0-99-generic Sat Feb 26 23:26:55 2022   still running
+
+wtmp begins Sat Feb 26 23:26:55 2022
 Feb 27 04:27:13 SYS-320 useradd[670]: new group: name=ubuntu, GID=1000
 Feb 27 04:27:13 SYS-320 useradd[670]: new user: name=ubuntu, UID=1000, GID=1000, home=/home/ubuntu, shell=/bin/bash, from=none
 Feb 27 04:27:13 SYS-320 useradd[670]: add 'ubuntu' to group 'adm'
@@ -512,7 +625,7 @@ Mar  3 01:16:20 SYS-320 realmd[38884]: Loaded settings from: /usr/lib/realmd/rea
 Mar  3 01:16:20 SYS-320 realmd[38884]: holding daemon: startup
 Mar  3 01:16:20 SYS-320 realmd[38884]: starting service
 Mar  3 01:16:20 SYS-320 realmd[38884]: connected to bus
-Mar  3 01:16:20 SYS-320 realmd[38884]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for â€˜gio-vfsâ€™
+Mar  3 01:16:20 SYS-320 realmd[38884]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
 Mar  3 01:16:20 SYS-320 realmd[38884]: released daemon: startup
 Mar  3 01:16:20 SYS-320 realmd[38884]: claimed name on bus: org.freedesktop.realmd
 Mar  3 01:16:20 SYS-320 realmd[38884]: client using service: :1.212
@@ -679,7 +792,7 @@ Mar  3 01:19:36 SYS-320 realmd[38968]: Loaded settings from: /usr/lib/realmd/rea
 Mar  3 01:19:36 SYS-320 realmd[38968]: holding daemon: startup
 Mar  3 01:19:36 SYS-320 realmd[38968]: starting service
 Mar  3 01:19:36 SYS-320 realmd[38968]: connected to bus
-Mar  3 01:19:36 SYS-320 realmd[38968]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for â€˜gio-vfsâ€™
+Mar  3 01:19:36 SYS-320 realmd[38968]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
 Mar  3 01:19:36 SYS-320 realmd[38968]: released daemon: startup
 Mar  3 01:19:36 SYS-320 realmd[38968]: claimed name on bus: org.freedesktop.realmd
 Mar  3 01:19:36 SYS-320 realmd[38968]: client using service: :1.217
@@ -5771,4 +5884,3 @@ Mar  6 03:22:39 sys320 sshd[83827]: pam_unix(sshd:session): session opened for u
 Mar  6 03:22:39 sys320 systemd-logind[725]: New session 503 of user ubuntu.
 Mar  6 04:17:01 sys320 CRON[84103]: pam_unix(cron:session): session opened for user root by (uid=0)
 Mar  6 04:17:01 sys320 CRON[84103]: pam_unix(cron:session): session closed for user root
-

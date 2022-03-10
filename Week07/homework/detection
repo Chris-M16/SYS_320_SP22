@@ -3,13 +3,13 @@
 [36mINFO[0m[0000] Loading Yara rules...                        
 [36mINFO[0m[0000] Scanning running processes...                
 [33mWARN[0m[0004] DETECTION! Malicious process detected as foundGoBinary  [33mpid[0m=25680 [33mprocess[0m=snapd
-[33mWARN[0m[0014] DETECTION! Malicious process detected as foundGoBinary  [33mpid[0m=146348 [33mprocess[0m=ls
-[36mINFO[0m[0015] Scanning autoruns...                         
-[33mWARN[0m[0015] DETECTION! Malicious autorun detected as foundGoBinary  [33mimage_path[0m=/usr/bin/snap [33mtype[0m=systemd
-[33mWARN[0m[0015] DETECTION! Malicious autorun detected as foundGoBinary  [33mimage_path[0m=/usr/bin/snap [33mtype[0m=systemd
-[36mINFO[0m[0016] Scanning the filesystem (this can take several minutes)... 
-[31mERRO[0m[0016] Some malicious artifacts have been detected on this system: 
-[31mERRO[0m[0016] Found detection for foundGoBinary            
-[31mERRO[0m[0016] Found detection for foundGoBinary            
-[31mERRO[0m[0016] Found detection for foundGoBinary            
-[31mERRO[0m[0016] Found detection for foundGoBinary            
+[33mWARN[0m[0014] DETECTION! Malicious process detected as foundGoBinary  [33mpid[0m=148658 [33mprocess[0m=ls
+[36mINFO[0m[0016] Scanning autoruns...                         
+[33mWARN[0m[0017] DETECTION! Malicious autorun detected as foundGoBinary  [33mimage_path[0m=/usr/bin/snap [33mtype[0m=systemd
+[33mWARN[0m[0017] DETECTION! Malicious autorun detected as foundGoBinary  [33mimage_path[0m=/usr/bin/snap [33mtype[0m=systemd
+[36mINFO[0m[0017] Scanning the filesystem (this can take several minutes)... 
+[31mERRO[0m[0017] Some malicious artifacts have been detected on this system: 
+[31mERRO[0m[0017] Found detection for foundGoBinary            
+[31mERRO[0m[0017] Found detection for foundGoBinary            
+[31mERRO[0m[0017] Found detection for foundGoBinary            
+[31mERRO[0m[0017] Found detection for foundGoBinary            
