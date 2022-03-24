@@ -21,7 +21,7 @@ $outputName = "C:\Users\chris.mchugh-adm\Desktop\RunningServices.csv"
 #$outputName
 
 # Get a list of running services
-Get-Service | Where-Object { $_.Status -eq "Running" } | Select-Object Status, Name, DisplayName, BinaryPathName | Export-Csv -Path `
+Get-Service | Where-Object { $_.Status -eq "Running" } | Select-Object Name, DisplayName, BinaryPathName | Export-Csv -Path `
 $outputName
 
 # Check to see if file exists
